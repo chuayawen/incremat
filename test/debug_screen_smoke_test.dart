@@ -33,6 +33,8 @@ void main() {
     await tester.pump(const Duration(milliseconds: 300));
     expect(find.text('Reps'), findsOneWidget);
     expect(find.text('Auto reps'), findsOneWidget);
+    // The connection card is below the initial ListView viewport.
+    await tester.scrollUntilVisible(find.text('Connection'), 200);
     expect(find.text('Connection'), findsOneWidget);
   });
 
