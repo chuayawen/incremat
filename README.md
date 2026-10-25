@@ -4,10 +4,6 @@ A Flutter app that helps caregivers follow an older adult's sit-to-stand exercis
 
 **Companion:** [IncreMat Play](https://github.com/chuayawen/incremat-play), the senior-facing app that turns exercise progress into virtual-pet growth.
 
-## Project context and my contribution
-
-IncreMat was a team prototype designed around making exercise easier to follow and more engaging for older adults. I, **Chua Ya Wen**, led feature development and iterative testing across the caregiver and Play Flutter apps. My work covered caregiver monitoring and gamified exercise; I also designed gamification for older adults in Singapore and Shenzhen. We tested the prototype with older adults in Shenzhen and refined the app experience through repeated iterations.
-
 ## How the apps fit together
 
 ```mermaid
